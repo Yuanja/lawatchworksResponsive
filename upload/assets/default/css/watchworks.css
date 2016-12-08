@@ -1,0 +1,634 @@
+html {
+  color:#fff;
+}
+body {
+  background:none !important;
+  font-weight:300;
+}
+a {
+  color:#fff;
+  text-decoration:none;
+  font-weight:300;
+}
+.mdl-grid {
+  padding:0;
+  margin:40px auto 0;
+}
+.mdl-layout .tandc {
+   /* top: 130px;*/
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+#logo {
+    height:1px;
+}
+.logo-image {
+  width:114px;
+}
+.login-box {
+  display:table-row !important;
+}
+#ticketForm > table {
+  width:100%;
+/*    table-layout: fixed;
+    min-width: 800px;*/
+}
+/*.registrationConfirm {
+  padding: 130px 0 0 50px;
+}*/
+.action-button {
+  margin:5px 0 0 !important;
+}
+
+table input.pswd {
+    width: 290px;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: #fff;
+    background-image: none;
+    color: rgb(0, 0, 0);
+}
+.search form {
+  width:auto;
+}
+form {
+  margin:0 auto 120px!important;
+  box-shadow: none !important;
+  border:none !important;
+  text-align:left;
+  width:auto;
+}
+form table {
+  width:auto;
+  min-width: 300px;
+  margin: 0 auto;
+}
+form#ticketForm {
+  margin:0 !important;
+}
+form#clientLogin {
+  padding: 120px 0;
+  min-height: 320px;
+  background:#fff;
+  text-align:center;
+}
+form#clientLogin h1 {
+  color:#000;
+  font-family: 'roboto';
+  font-size: 33px;
+  font-weight: bold;
+  width:auto;
+}
+form#clientLogin .loginHdr {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  text-align:left;
+}
+form#clientLogin input {
+  width:312px !important;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: solid 1px #979797;
+  margin: 15px 0 30px !important;
+}
+
+.ticketTable {
+  margin:0 auto 50px auto;
+}
+.ticketTable h1 {
+  width:310px;
+}
+.login-box {
+    width: 325px !important;
+    text-align:left;
+    display: block !important;
+    box-shadow: none !important;
+    padding: 15px;
+    margin: 0 auto;
+    background: #fff;
+}
+.login-box a {
+  color:#000;
+}
+form#clientLogin input.btn {
+  width:325px !important;
+  background:#000;
+  color:#fff;
+}
+.navigation-container {
+  position:absolute;
+  left:0;
+  top:30px;
+}
+.hdr {
+  font-size:33px;
+  font-family: "Open Sans";
+}
+nav {float:left;font-family: "Open Sans";}
+nav ul {text-align:center;margin:0;}
+nav ul li {float:left;display:inline;}
+nav ul li:hover {}
+nav ul li a {display:block;padding:6px 25px;color:#fff;text-decoration:none;font-size:14px;font-family: "Helvetica Neue", sans-serif;font-weight:300;}
+nav ul li a.active {color:#f5a623;}
+nav ul li a.dd {
+  background-image: url('../images/watchworks/ic_arrow_drop_down_black_24px.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 20px;
+}
+nav ul li ul {position:absolute;padding:0;width:auto;min-width:108px;max-width:200px;margin:0 0 0 14px;background:#FFF;border: 1px solid #efefef;z-index:1000;text-align:left;}
+nav ul li ul li {width:auto;float:none;}
+nav ul li ul li a {display:block;padding:15px 10px;color:#444;}
+nav ul li ul li:hover a {background:#F7F7F7;}
+nav ul li ul.fallback {display:none;}
+nav ul li:hover ul.fallback {display:block;}
+
+.logo-image-mobile {
+  display:none;
+}
+main {padding-bottom:100px;}
+.headline {
+  /*background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/watchworks/P6027997.JPG') no-repeat center center fixed;
+  background-size:cover;*/
+  width:100%;
+  height:30px;
+  margin:0;
+}
+.headline h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+  /*margin: 63px;*/
+  color:#000;
+}
+#ticketThread {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+#reply {
+  margin: 20px auto 100px !important;
+  width: 93%;
+  max-width: 800px;
+}
+.mdl-button {
+    color:#fff;
+    background:#000;
+}
+.mdl-button:hover {
+    background-color: #000;
+}
+.mdl-card__media {
+  background-color:transparent;
+  padding: 25px 0 0px;
+}
+.mdl-card__media img {
+  width:126px;
+}
+
+.mdl-card__supporting-text {
+/*  padding:0 0 50px;*/
+}
+.mdl-layout__content {
+  color:#000;
+  background:#fff;
+  padding:60px 0 100px;
+}
+.first {
+  background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/watchworks/P6027997.JPG') no-repeat center center;
+  background-size:cover;
+  flex-grow: 1;
+}
+#home .mdl-layout__header-row {
+  color:#fff;
+  background:#000;
+}
+.formBody {
+  padding: 181px 0;
+  margin:0 auto;
+  max-width:800px;
+  /*min-height: 500px;*/
+}
+.mdl-layout__content .content {
+  justify-content:center;
+}
+.mdl-layout__content .mdl-cell {
+  /*margin: 0 0 20px;*/
+}
+.tandc .mdl-layout__content .mdl-cell {
+  margin: 0 0 20px;
+}
+.mdl-layout__content .line {
+  border:1px dotted #979797;
+  padding:0;
+  margin:0 0 20px;
+}
+.mdl-layout__content .content h5{
+  margin:0;
+  font-family:'Open Sans', sans-serif;
+  font-size:18px;
+  font-weight:600;
+  line-height:2;
+  width:auto;
+}
+a.mailto {
+  color:#000;
+  text-decoration:underline;  
+}
+.mdl-mega-footer {
+  padding: 0 40px;
+  background:#000;
+  text-align:right;
+  color:#fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index:2;
+}
+.mdl-mega-footer .footer {
+  padding: 0 0 25px;
+  width: 1060px;
+  margin: auto;
+}
+.mdl-mega-footer span{
+  float:left;
+}
+.mdl-mega-footer img {
+  width:35px;
+}
+.fix, .footer .footerContent {
+  justify-content:center;
+  text-align:center;
+}
+.mdl-layout__drawer {
+  background:#000;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+  font-family: "Helvetica Neue", sans-serif;
+  color:#fff;
+}
+table#ticketInfo {
+  margin: 130px auto 0 auto;
+}
+
+
+.mdl-layout__drawer-button {
+  display:none;
+}
+
+
+
+@media screen and (max-width:1124px) {
+  .navigation-container {
+      display: none;
+  }
+  .mdl-layout__drawer-button {
+      margin: 4px;
+      color: #fff;
+      right: 0;
+      left: inherit;
+      display:inline;
+  }
+  #home .mdl-layout__header-row {
+      height: auto;
+      align-items: center;
+      padding: 35px;
+      justify-content: center;
+  }
+  .logo-image-mobile {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    display:block;
+  }
+  .mdl-layout__content .content {
+      padding: 0 30px;
+      background: #fff;
+  }
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+  
+  .mdl-layout--no-desktop-drawer-button .mdl-layout__header-row {
+    align-items: center;
+    justify-content:center;
+    height:auto;
+    padding: 50px;
+    /*width: 1190px;*/
+    width:100%;
+    margin:auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/watchworks/P6028001.JPG') no-repeat 0 -240px;
+    background-size: cover;
+  }
+  #home .mdl-layout--no-desktop-drawer-button .mdl-layout__header-row {
+    background:none;
+    background-color:#000; 
+    position:fixed;
+    z-index:3;
+  }
+  #home .content {
+    background:none;
+    padding:30px;
+  }
+}
+
+@media (max-width:1023px) {
+/*  .mdl-layout__header-row {
+      align-items:center;
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/watchworks/P6028001.JPG') no-repeat 0 -240px;
+      background-size: cover;
+      padding: 26px 0 0 0;
+      justify-content:center;
+  }*/
+/*  #home .mdl-layout__header-row {
+      background: none;
+  }*/
+  form {
+    margin:20px auto !important;
+  }
+  table#ticketInfo {
+      margin: 30px auto 0 auto;
+  }
+  .mdl-mega-footer {
+    height:100px;
+  }
+  .footer .footerContent{
+    margin:0;
+  }
+  .footer .footerContent div {
+    margin:10px 0;
+  }
+  .mdl-layout__content {
+      color: #000;
+      padding: 0 0 100px;
+  }
+  
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .title {
+        left: calc(50% - 85px);
+    }
+    .mdl-layout .tandc {
+        top: 130px;
+    }
+    /*.logo-image-mobile {
+      position: absolute;
+      top: 10px;
+      left: 20px;
+      display:block;
+    }*/
+    .mdl-layout__drawer-button {
+          display: block;
+      }
+    .mdl-mega-footer .footer {
+        width: 708px;
+    }
+/*    #home .mdl-layout__header-row {
+        background:none;
+    }*/
+    .mdl-layout__header-row {
+        height: 150px;
+        align-items:center;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/watchworks/P6028001.JPG') no-repeat 0 -240px;
+        background-size: cover;
+        padding: 26px 0 0 0;
+        justify-content:center;
+    }
+    .mdl-layout .tandc {
+        top: 30px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+/*
+      .mdl-layout__drawer-button {
+          display: none;
+      }*/
+      #home .mdl-layout__header-row {
+          background: #000;
+          align-items: flex-start;
+          padding:25px;
+      }
+      .mdl-layout__header-row {
+          height: 188px;
+          align-items:center;
+          background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/watchworks/P6028001.JPG') no-repeat 0 -240px;
+          background-size: cover;
+          justify-content:center;
+      }
+      /*.navigation-container {
+          position: absolute;
+          left: -40px;
+          top: 10px;
+      }*/
+      .logo-image-mobile {
+        position: absolute;
+        top: 15px;
+        left: 20px;
+      }
+    .mdl-mega-footer .footer {
+        width: 970px;
+    }
+    .mdl-layout .tandc {
+        top: 30px;
+    }
+}
+@media (min-width: 768px) 
+  and (max-width: 1023px) {
+    .mdl-layout .tandc {
+        top: 30px;
+    }
+  }
+  
+@media (max-width: 900px) {
+  .navigation-container {
+      display: none;
+  }
+  .formBody {
+    padding: 20px;
+    min-height: 500px;
+  }
+  form#clientLogin {
+      padding: 0;
+      box-shadow:none;
+      border:none;
+      width:auto;
+    }
+  
+/*  .mdl-layout .tandc {
+      top: 50px;
+  }*/
+  /*.mdl-layout__drawer-button {
+    display:inline;
+  }*/
+/*  #home .mdl-layout__header-row {background:none;}*/
+  /*.logo-image-mobile {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    display: block;
+  }*/
+  main .footer .footerContent {
+      display: block;
+  }
+  .mdl-mega-footer .footer {
+      width: auto;
+  }
+  .mdl-mega-footer {
+      color: #fff;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 0;
+  }
+  main .footer .footerContent .mdl-cell {
+      margin: 0 auto;
+      padding: 10px 0;
+  }
+  
+  .title {
+    left: calc(50% - 85px);
+    padding: 24px 0 0;
+  }
+  /*.mdl-layout__drawer-button {
+      margin: 4px;
+      color: #fff;
+      right: 0;
+      left: inherit;
+  }*/
+  .mdl-layout__content .content {
+      /*padding: 0 30px;*/
+      background:#fff;
+  }
+/*  #home .mdl-layout__header-row {
+    background:none;
+  }*/
+  .mdl-mega-footer {
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    background:#000;
+    z-index:400;
+  }
+  .mdl-mega-footer .footer {
+    text-align:center;
+    width:auto;
+    padding:0;
+  }
+  .mdl-mega-footer span {
+      float: none;
+      display: block;
+      text-align: center;
+      margin:0 0 10px;
+  }
+  
+  .footer .footerContent {
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+  }
+  main .mdl-mega-footer,
+  main .footer .footerContent {
+    display:block;
+  }
+  main .footer .footerContent .mdl-cell{
+    margin:0 auto;
+    padding:10px 0;
+  }
+  .mdl-layout .tandc {
+      top: 40px;
+  }
+  .thread-entry.avatar {
+      margin: 0 10px 0 70px;
+  }
+  .registrationConfirm {
+      padding: 0;
+  }
+}
+
+@media (max-width: 736px) {
+  #ticketForm > table {
+      table-layout: fixed;
+      min-width: 500px;
+  }
+  .mdl-layout .tandc {
+      top: 30px;
+  }
+}
+
+@media (max-width: 479px) {
+  .mdl-layout__container {
+      background:none
+    }
+    .mdl-layout__header-row {
+      height: 70px;
+      background:#000;
+      padding: 26px 0 0 0;
+      justify-content: center;
+    }
+    #home .mdl-layout__header-row {
+        color: #fff;
+        background: #000;
+    }
+    .formBody {
+      padding: 20px 10px;
+      min-height: 500px;
+    }
+    /*#home .mdl-mega-footer {
+      position:absolute;
+      bottom:0;
+    }*/
+    #ticketForm > table {
+        table-layout: fixed;
+        min-width: 300px;
+    }
+    .mdl-layout__content .content {
+      padding:0 20px;
+      margin:0 auto;
+      line-height:21px;
+    }
+    #ticketTable {
+      font-size:12px;
+    }
+    .registrationConfirm {
+        padding: 0 0 0 10px;
+    }
+}
+
+@media (max-width: 320px) {
+  form#clientLogin input,
+  form#clientLogin input.btn {
+    width: 275px !important;
+  }
+  .ticketTable {
+    width: 370px;
+  }
+  .login-box {
+    padding:5px;
+  }
+/*  #header {
+    padding:0 !important;
+  }*/
+}

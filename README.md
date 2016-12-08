@@ -1,5 +1,6 @@
 # lawatch works based on osticket-v1.10
 -- After cloning it you will have lawatchworks/upload folder and that's the base folder for the app.  Next steps are to prep it so that apache can serve it under http://localhost/lawatchworks
+0) git clone https://github.com/Yuanja/lawatchworksResponsive lawatchworks
 
 1) Make sure everyone can read it the files: chmod uog+r -R lawatchworks
 
